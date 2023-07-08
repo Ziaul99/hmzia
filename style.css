@@ -7,25 +7,29 @@ body {
 }
 
 .primary-color {
-    color: #FD6E0A;}
+    color: #FD6E0A;
+}
 
-    .btn-primary {
-        border-radius: 5px;
-       background-color: #FD6E0A;
-       border: 0;
-       padding: 10px;
-       color: white;
-       font-style: 20px;
-       font-weight: 700;
-    }
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-style: 20px;
+    font-weight: 700;
+}
+
 /* nav related style */
 
-.header {background-color: #FFF8F3;}
+.header {
+    background-color: #FFF8F3;
+}
 
-.nav-title{
-   color: #181818;
-   font-style: 45px;
-   font-weight: 800;
+.nav-title {
+    color: #181818;
+    font-style: 45px;
+    font-weight: 800;
 }
 
 nav {
@@ -35,32 +39,68 @@ nav {
     margin: 0 0 0 150px;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin: 30px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
 
-.banner{
+.banner {
     background-image: url(images/header_bg.png);
-    border-image-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
     display: flex;
     margin: 0 0 0 150px;
     justify-content: space-between;
+
 }
 
-.banner-div1{
+.banner-div1 {
     display: block;
 }
 
-.banner-div2 img{
+.banner-div2 img {
     height: 320px;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/* Mian Section Style */
+
+.about {
+    background-color: #ebd1be;
+    text-align: center;
+    width: 1150px auto;
+    margin: 150px;
+}
+
+.about h2 {
+    padding-top: 80px;
+}
+
+#my-education {
+    padding: 0 100px 0 100px;
+}
+
+.about li {
+    list-style: none;
+}
+
+.aboutdiv ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 100 100 100px;
 }
