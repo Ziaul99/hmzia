@@ -20,6 +20,8 @@ body {
     }
 /* nav related style */
 
+.header {background-color: #FFF8F3;}
+
 .nav-title{
    color: #181818;
    font-style: 45px;
@@ -30,6 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 0 0 150px;
 }
 
 nav li{
@@ -43,4 +46,21 @@ nav a{
 
 nav ul{
     display: flex;
+}
+
+
+.banner{
+    background-image: url(images/header_bg.png);
+    border-image-repeat: no-repeat;
+    display: flex;
+    margin: 0 0 0 150px;
+    justify-content: space-between;
+}
+
+.banner-div1{
+    display: block;
+}
+
+.banner-div2 img{
+    height: 320px;
 }
